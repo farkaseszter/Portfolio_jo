@@ -1,0 +1,187 @@
+body{
+	font:16px/1.5 Roboto mono;
+	padding: 0;
+	margin: 50px 40px 50px 40px;
+	background:url('../kepek/szellorozsa2.jpg');
+	
+}
+
+.helyzet{
+	width: 90%;
+	overflow: hidden;
+	
+}
+header{
+	background: #422D59; 
+	padding-top: 10px;
+	min-height: 40px;
+	border-radius: .8rem;
+	margin-right: 50px;
+	margin-left: 50px;
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+	
+	
+}
+header a{
+	color: #c3b1d7;
+	text-decoration: underline overline;
+	text-decoration-style: double;
+	font-size: 35px;
+	
+}
+header a:hover{
+	color: white;
+}
+header ul{
+	text-transform: uppercase;
+	padding: 0;
+}
+header li{
+	float: right;
+	display: inline;
+	margin: 5px 20px 5px 5px;
+	padding-top: 50px;
+
+}
+header #nev{
+	float: left;
+	color: #ffffff;
+	font-size: 35px;
+	margin: 0 0px 0px 70px;
+	font-family: 'Lobster';
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+
+.doboz{
+	
+	color: #422D59;
+	text-align: center;
+	background-color:  #422D59;
+	margin: 0px 70px 0px 70px;
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+
+	
+
+}
+.dobozka {
+	/*float:left;*/
+	display: inline-block;
+	width: 60%;
+	max-width: 400px;
+	text-align: left;
+	vertical-align: top;
+	background-color: #fff0bf ;
+  	padding: 10px 20px 0px 20px;
+  	margin: 50px 20px 50px 20px;
+  	min-height:550px;
+	border-radius: 1rem;
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+
+}
+.dobozka img{
+	height: 530px;
+	min-width: 100%;
+	border-radius: 1rem;
+	margin-top: 2px;
+}
+.doboz h3{
+	font-size: 30px;
+}
+.doboz p{
+	font-size: 18px;
+}
+
+
+.doboz2{
+	display: inline-block;
+	width: 100%;
+	width: 300px;
+	text-align: center;
+	vertical-align: top;
+	background-color: #fff0bf;
+  	height:400px;
+  	margin: 20px 30px 20px 30px;
+  	padding: 10px 20px 10px 20px;
+  	border-radius: 0.5rem;
+
+}
+
+.doboz2 img{
+	border-radius: 0.5rem;
+	max-width: 100%;
+}
+.doboz3{
+	display: inline-block;
+	width: 100%;
+	width: 800px;
+	text-align: left;
+	vertical-align: top;
+	background-color: #fff0bf;
+  	margin: 20px 30px 20px 30px;
+  	padding: 10px 20px 10px 20px;
+  	border-radius: 0.5rem;
+
+}
+.doboz3 h3{
+	font-size: 35px;
+
+}
+.doboz3 img{
+	border-radius: 0.5rem;
+	max-width: 80%;
+	margin-left: 80px;
+}
+
+.main{
+	min-height: 250px;
+}
+
+.main ul a{
+	font-size: 20px;
+	color: #9272b6;
+	text-transform: lowercase;
+	text-decoration: overline;
+}
+.main a:hover{
+	color: #6ad100;
+}
+
+
+footer{
+	background: #422D59;
+	color: #422D59
+	padding: 10px;
+	min-height: 70px;
+	border-radius: .8rem;
+	margin: 0px 50px 0px 50px;
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+
+
+}
+footer a{
+	color: #c3b1d7;
+	font-size: 30px;
+	float: left;
+	padding: 10px 50px 0 50px;
+	text-transform: uppercase;
+	text-decoration: underline overline;
+	text-decoration-style: double;
+}
+
+footer a:hover{
+	color: white;
+}
+
